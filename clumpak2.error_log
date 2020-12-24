@@ -1,0 +1,81 @@
+[Thu Sep 18 16:37:30 2014] [error] [client 132.66.44.7] mod_mime_magic: can't read `/var/www/cgi-bin/clumpak2/CLUMPAKResults.cgi', referer: http://clumpak2.tau.ac.il/results.html?jobId=1411047395
+[Thu Sep 18 16:37:30 2014] [error] [client 132.66.44.7] File does not exist: /var/www/html/clumpak2/images, referer: http://clumpak2.tau.ac.il/results.html?jobId=1411047395
+[Thu Sep 18 16:37:55 2014] [error] [client 132.66.44.7] File does not exist: /var/www/html/clumpak2/images, referer: http://clumpak2.tau.ac.il/results.html?jobId=1411047395
+[Thu Sep 18 16:37:55 2014] [error] [client 132.66.44.7] mod_mime_magic: can't read `/var/www/cgi-bin/clumpak2/CLUMPAKResults.cgi', referer: http://clumpak2.tau.ac.il/results.html?jobId=1411047395
+[Thu Sep 18 16:40:49 2014] [error] [client 132.66.44.7] File does not exist: /var/www/html/clumpak2/favicon.ico
+[Thu Sep 18 16:41:19 2014] [error] [client 132.66.44.7] File does not exist: /var/www/html/clumpak2/favicon.ico
+[Thu Sep 18 16:44:25 2014] [error] [client 132.66.44.7] script not found or unable to stat: /var/www/cgi-bin/clumpak2/SmokeTestsFlagGetter.cgi, referer: http://clumpak2.tau.ac.il/index.html
+[Thu Sep 18 16:46:44 2014] [error] [client 132.66.44.7] suexec policy violation: see suexec log for more details, referer: http://clumpak2.tau.ac.il/index.html
+[Thu Sep 18 16:46:44 2014] [error] [client 132.66.44.7] Premature end of script headers: SmokeTestsFlagGetter.cgi, referer: http://clumpak2.tau.ac.il/index.html
+[Thu Sep 18 16:49:42 2014] [error] [client 132.66.44.7] [Thu Sep 18 16:49:42 2014] SmokeTestsFlagGetter.cgi: Can't locate CLUMPAK_CONSTS_and_Functions.pm in @INC (@INC contains: ../ /bioseq/CLUMPAK /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .) at SmokeTestsFlagGetter.cgi line 13., referer: http://clumpak2.tau.ac.il/index.html
+[Thu Sep 18 16:49:42 2014] [error] [client 132.66.44.7] [Thu Sep 18 16:49:42 2014] SmokeTestsFlagGetter.cgi: BEGIN failed--compilation aborted at SmokeTestsFlagGetter.cgi line 13., referer: http://clumpak2.tau.ac.il/index.html
+[Thu Sep 18 16:55:53 2014] [error] [client 132.66.44.7] [Thu Sep 18 16:55:53 2014] SmokeTestsFlagGetter.cgi: Can't locate CLUMPAK_CONSTS_and_Functions.pm in @INC (@INC contains: ../ /bioseq/CLUMPAK /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .) at SmokeTestsFlagGetter.cgi line 13., referer: http://clumpak2.tau.ac.il/index.html
+[Thu Sep 18 16:55:53 2014] [error] [client 132.66.44.7] [Thu Sep 18 16:55:53 2014] SmokeTestsFlagGetter.cgi: BEGIN failed--compilation aborted at SmokeTestsFlagGetter.cgi line 13., referer: http://clumpak2.tau.ac.il/index.html
+[Thu Sep 18 16:56:37 2014] [error] [client 132.66.44.7] mod_mime_magic: can't read `/var/www/cgi-bin/clumpak2/CLUMPAK.cgi', referer: http://clumpak2.tau.ac.il/index.html
+[Thu Sep 18 16:56:37 2014] [error] [client 132.66.44.7] [Thu Sep 18 16:56:37 2014] CLUMPAK.cgi: Can't locate CLUMPAK_CONSTS_and_Functions.pm in @INC (@INC contains: /bioseq/CLUMPAK ../ /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .) at CLUMPAK.cgi line 17., referer: http://clumpak2.tau.ac.il/index.html
+[Thu Sep 18 16:56:37 2014] [error] [client 132.66.44.7] [Thu Sep 18 16:56:37 2014] CLUMPAK.cgi: BEGIN failed--compilation aborted at CLUMPAK.cgi line 17., referer: http://clumpak2.tau.ac.il/index.html
+[Thu Sep 18 16:56:38 2014] [error] [client 132.66.44.7] File does not exist: /var/www/html/clumpak2/favicon.ico
+[Thu Sep 18 16:56:38 2014] [error] [client 132.66.44.7] File does not exist: /var/www/html/clumpak2/favicon.ico
+[Sun Sep 21 14:27:36 2014] [error] [client 132.66.44.7] mod_mime_magic: can't read `/var/www/cgi-bin/clumpak2/CLUMPAK.cgi', referer: http://clumpak2.tau.ac.il/index.html
+[Sun Sep 21 14:27:46 2014] [error] [client 132.66.44.7] mod_mime_magic: can't read `/var/www/cgi-bin/clumpak2/CLUMPAKResults.cgi', referer: http://clumpak2.tau.ac.il/results.html?jobId=1411298857
+[Sun Sep 21 14:27:46 2014] [error] [client 132.66.44.7] File does not exist: /var/www/html/clumpak2/images, referer: http://clumpak2.tau.ac.il/results.html?jobId=1411298857
+[Sun Sep 21 14:27:59 2014] [error] [client 132.66.44.7] File does not exist: /var/www/html/clumpak2/images, referer: http://clumpak2.tau.ac.il/results.html?jobId=1411298857
+[Sun Sep 21 14:28:00 2014] [error] [client 132.66.44.7] mod_mime_magic: can't read `/var/www/cgi-bin/clumpak2/CLUMPAKResults.cgi', referer: http://clumpak2.tau.ac.il/results.html?jobId=1411298857
+[Sun Sep 21 14:28:31 2014] [error] [client 132.66.44.7] mod_mime_magic: can't read `/var/www/cgi-bin/clumpak2/CLUMPAKResults.cgi', referer: http://clumpak2.tau.ac.il/results.html?jobId=1411298857
+[Sun Sep 21 14:29:03 2014] [error] [client 132.66.44.7] mod_mime_magic: can't read `/var/www/cgi-bin/clumpak2/CLUMPAKResults.cgi', referer: http://clumpak2.tau.ac.il/results.html?jobId=1411298857
+[Sun Sep 21 14:29:35 2014] [error] [client 132.66.44.7] mod_mime_magic: can't read `/var/www/cgi-bin/clumpak2/CLUMPAKResults.cgi', referer: http://clumpak2.tau.ac.il/results.html?jobId=1411298857
+[Sun Sep 21 14:30:07 2014] [error] [client 132.66.44.7] mod_mime_magic: can't read `/var/www/cgi-bin/clumpak2/CLUMPAKResults.cgi', referer: http://clumpak2.tau.ac.il/results.html?jobId=1411298857
+[Sun Sep 21 14:30:40 2014] [error] [client 132.66.44.7] mod_mime_magic: can't read `/var/www/cgi-bin/clumpak2/CLUMPAKResults.cgi', referer: http://clumpak2.tau.ac.il/results.html?jobId=1411298857
+[Sun Sep 21 14:31:13 2014] [error] [client 132.66.44.7] mod_mime_magic: can't read `/var/www/cgi-bin/clumpak2/CLUMPAKResults.cgi', referer: http://clumpak2.tau.ac.il/results.html?jobId=1411298857
+[Sun Sep 21 14:31:44 2014] [error] [client 132.66.44.7] mod_mime_magic: can't read `/var/www/cgi-bin/clumpak2/CLUMPAKResults.cgi', referer: http://clumpak2.tau.ac.il/results.html?jobId=1411298857
+[Sun Sep 21 14:32:17 2014] [error] [client 132.66.44.7] mod_mime_magic: can't read `/var/www/cgi-bin/clumpak2/CLUMPAKResults.cgi', referer: http://clumpak2.tau.ac.il/results.html?jobId=1411298857
+[Sun Sep 21 14:32:49 2014] [error] [client 132.66.44.7] mod_mime_magic: can't read `/var/www/cgi-bin/clumpak2/CLUMPAKResults.cgi', referer: http://clumpak2.tau.ac.il/results.html?jobId=1411298857
+[Sun Sep 21 14:33:22 2014] [error] [client 132.66.44.7] mod_mime_magic: can't read `/var/www/cgi-bin/clumpak2/CLUMPAKResults.cgi', referer: http://clumpak2.tau.ac.il/results.html?jobId=1411298857
+[Sun Sep 21 14:33:24 2014] [error] [client 132.66.44.7] File does not exist: /var/www/html/clumpak2/images, referer: http://clumpak2.tau.ac.il/results.html?jobId=1411298857
+[Sun Sep 21 14:33:54 2014] [error] [client 132.66.44.7] mod_mime_magic: can't read `/var/www/cgi-bin/clumpak2/CLUMPAKResults.cgi', referer: http://clumpak2.tau.ac.il/results.html?jobId=1411298857
+[Sun Sep 21 14:34:26 2014] [error] [client 132.66.44.7] mod_mime_magic: can't read `/var/www/cgi-bin/clumpak2/CLUMPAKResults.cgi', referer: http://clumpak2.tau.ac.il/results.html?jobId=1411298857
+[Sun Sep 21 14:34:58 2014] [error] [client 132.66.44.7] mod_mime_magic: can't read `/var/www/cgi-bin/clumpak2/CLUMPAKResults.cgi', referer: http://clumpak2.tau.ac.il/results.html?jobId=1411298857
+[Sun Sep 21 14:35:35 2014] [error] [client 132.66.44.7] mod_mime_magic: can't read `/var/www/cgi-bin/clumpak2/CLUMPAKResults.cgi', referer: http://clumpak2.tau.ac.il/results.html?jobId=1411298857
+[Sun Sep 21 14:36:08 2014] [error] [client 132.66.44.7] mod_mime_magic: can't read `/var/www/cgi-bin/clumpak2/CLUMPAKResults.cgi', referer: http://clumpak2.tau.ac.il/results.html?jobId=1411298857
+[Sun Sep 21 14:36:40 2014] [error] [client 132.66.44.7] mod_mime_magic: can't read `/var/www/cgi-bin/clumpak2/CLUMPAKResults.cgi', referer: http://clumpak2.tau.ac.il/results.html?jobId=1411298857
+[Sun Sep 21 14:37:17 2014] [error] [client 132.66.44.7] mod_mime_magic: can't read `/var/www/cgi-bin/clumpak2/CLUMPAKResults.cgi', referer: http://clumpak2.tau.ac.il/results.html?jobId=1411298857
+[Sun Sep 21 14:37:49 2014] [error] [client 132.66.44.7] mod_mime_magic: can't read `/var/www/cgi-bin/clumpak2/CLUMPAKResults.cgi', referer: http://clumpak2.tau.ac.il/results.html?jobId=1411298857
+[Sun Sep 21 14:38:21 2014] [error] [client 132.66.44.7] mod_mime_magic: can't read `/var/www/cgi-bin/clumpak2/CLUMPAKResults.cgi', referer: http://clumpak2.tau.ac.il/results.html?jobId=1411298857
+[Sun Sep 21 14:38:53 2014] [error] [client 132.66.44.7] mod_mime_magic: can't read `/var/www/cgi-bin/clumpak2/CLUMPAKResults.cgi', referer: http://clumpak2.tau.ac.il/results.html?jobId=1411298857
+[Sun Sep 21 14:39:25 2014] [error] [client 132.66.44.7] mod_mime_magic: can't read `/var/www/cgi-bin/clumpak2/CLUMPAKResults.cgi', referer: http://clumpak2.tau.ac.il/results.html?jobId=1411298857
+[Sun Sep 21 14:39:57 2014] [error] [client 132.66.44.7] mod_mime_magic: can't read `/var/www/cgi-bin/clumpak2/CLUMPAKResults.cgi', referer: http://clumpak2.tau.ac.il/results.html?jobId=1411298857
+[Sun Sep 21 14:40:29 2014] [error] [client 132.66.44.7] mod_mime_magic: can't read `/var/www/cgi-bin/clumpak2/CLUMPAKResults.cgi', referer: http://clumpak2.tau.ac.il/results.html?jobId=1411298857
+[Sun Sep 21 14:41:01 2014] [error] [client 132.66.44.7] mod_mime_magic: can't read `/var/www/cgi-bin/clumpak2/CLUMPAKResults.cgi', referer: http://clumpak2.tau.ac.il/results.html?jobId=1411298857
+[Sun Sep 21 14:41:32 2014] [error] [client 132.66.44.7] mod_mime_magic: can't read `/var/www/cgi-bin/clumpak2/CLUMPAKResults.cgi', referer: http://clumpak2.tau.ac.il/results.html?jobId=1411298857
+[Sun Sep 21 14:42:04 2014] [error] [client 132.66.44.7] mod_mime_magic: can't read `/var/www/cgi-bin/clumpak2/CLUMPAKResults.cgi', referer: http://clumpak2.tau.ac.il/results.html?jobId=1411298857
+[Sun Sep 21 14:42:36 2014] [error] [client 132.66.44.7] mod_mime_magic: can't read `/var/www/cgi-bin/clumpak2/CLUMPAKResults.cgi', referer: http://clumpak2.tau.ac.il/results.html?jobId=1411298857
+[Sun Sep 21 14:43:08 2014] [error] [client 132.66.44.7] mod_mime_magic: can't read `/var/www/cgi-bin/clumpak2/CLUMPAKResults.cgi', referer: http://clumpak2.tau.ac.il/results.html?jobId=1411298857
+[Sun Sep 21 14:43:40 2014] [error] [client 132.66.44.7] mod_mime_magic: can't read `/var/www/cgi-bin/clumpak2/CLUMPAKResults.cgi', referer: http://clumpak2.tau.ac.il/results.html?jobId=1411298857
+[Sun Sep 21 14:44:12 2014] [error] [client 132.66.44.7] mod_mime_magic: can't read `/var/www/cgi-bin/clumpak2/CLUMPAKResults.cgi', referer: http://clumpak2.tau.ac.il/results.html?jobId=1411298857
+[Sun Sep 21 14:44:20 2014] [error] [client 132.66.44.7] File does not exist: /var/www/html/clumpak2/images, referer: http://clumpak2.tau.ac.il/results.html?jobId=1411154970
+[Sun Sep 21 14:44:20 2014] [error] [client 132.66.44.7] mod_mime_magic: can't read `/var/www/cgi-bin/clumpak2/CLUMPAKResults.cgi', referer: http://clumpak2.tau.ac.il/results.html?jobId=1411154970
+[Sun Sep 21 14:44:22 2014] [error] [client 132.66.44.7] File does not exist: /var/www/html/clumpak2/images, referer: http://clumpak2.tau.ac.il/results.html?jobId=1411154970
+[Sun Sep 21 14:44:44 2014] [error] [client 132.66.44.7] mod_mime_magic: can't read `/var/www/cgi-bin/clumpak2/CLUMPAKResults.cgi', referer: http://clumpak2.tau.ac.il/results.html?jobId=1411298857
+[Sun Sep 28 12:12:30 2014] [error] [client 132.66.44.7] mod_mime_magic: can't read `/var/www/cgi-bin/clumpak2/CLUMPAK.cgi', referer: http://clumpak2.tau.ac.il/
+[Sun Sep 28 12:12:32 2014] [error] [client 132.66.44.7] File does not exist: /var/www/html/clumpak2/images, referer: http://clumpak2.tau.ac.il/results.html?jobId=1411895550
+[Sun Sep 28 12:12:32 2014] [error] [client 132.66.44.7] mod_mime_magic: can't read `/var/www/cgi-bin/clumpak2/CLUMPAKResults.cgi', referer: http://clumpak2.tau.ac.il/results.html?jobId=1411895550
+[Sun Sep 28 12:13:02 2014] [error] [client 132.66.44.7] mod_mime_magic: can't read `/var/www/cgi-bin/clumpak2/CLUMPAKResults.cgi', referer: http://clumpak2.tau.ac.il/results.html?jobId=1411895550
+[Sun Sep 28 12:13:34 2014] [error] [client 132.66.44.7] mod_mime_magic: can't read `/var/www/cgi-bin/clumpak2/CLUMPAKResults.cgi', referer: http://clumpak2.tau.ac.il/results.html?jobId=1411895550
+[Sun Sep 28 12:14:06 2014] [error] [client 132.66.44.7] mod_mime_magic: can't read `/var/www/cgi-bin/clumpak2/CLUMPAKResults.cgi', referer: http://clumpak2.tau.ac.il/results.html?jobId=1411895550
+[Sun Sep 28 12:14:38 2014] [error] [client 132.66.44.7] mod_mime_magic: can't read `/var/www/cgi-bin/clumpak2/CLUMPAKResults.cgi', referer: http://clumpak2.tau.ac.il/results.html?jobId=1411895550
+[Sun Sep 28 12:15:09 2014] [error] [client 132.66.44.7] mod_mime_magic: can't read `/var/www/cgi-bin/clumpak2/CLUMPAKResults.cgi', referer: http://clumpak2.tau.ac.il/results.html?jobId=1411895550
+[Sun Sep 28 12:15:41 2014] [error] [client 132.66.44.7] mod_mime_magic: can't read `/var/www/cgi-bin/clumpak2/CLUMPAKResults.cgi', referer: http://clumpak2.tau.ac.il/results.html?jobId=1411895550
+[Sun Sep 28 12:16:13 2014] [error] [client 132.66.44.7] mod_mime_magic: can't read `/var/www/cgi-bin/clumpak2/CLUMPAKResults.cgi', referer: http://clumpak2.tau.ac.il/results.html?jobId=1411895550
+[Sun Sep 28 12:16:15 2014] [error] [client 132.66.44.7] File does not exist: /var/www/html/clumpak2/images, referer: http://clumpak2.tau.ac.il/results.html?jobId=1411895550
+[Sun Sep 28 12:16:45 2014] [error] [client 132.66.44.7] mod_mime_magic: can't read `/var/www/cgi-bin/clumpak2/CLUMPAKResults.cgi', referer: http://clumpak2.tau.ac.il/results.html?jobId=1411895550
+[Sun Sep 28 12:17:16 2014] [error] [client 132.66.44.7] mod_mime_magic: can't read `/var/www/cgi-bin/clumpak2/CLUMPAKResults.cgi', referer: http://clumpak2.tau.ac.il/results.html?jobId=1411895550
+[Sun Sep 28 12:17:49 2014] [error] [client 132.66.44.7] mod_mime_magic: can't read `/var/www/cgi-bin/clumpak2/CLUMPAKResults.cgi', referer: http://clumpak2.tau.ac.il/results.html?jobId=1411895550
+[Sun Sep 28 12:18:21 2014] [error] [client 132.66.44.7] mod_mime_magic: can't read `/var/www/cgi-bin/clumpak2/CLUMPAKResults.cgi', referer: http://clumpak2.tau.ac.il/results.html?jobId=1411895550
+[Sun Sep 28 12:18:52 2014] [error] [client 132.66.44.7] mod_mime_magic: can't read `/var/www/cgi-bin/clumpak2/CLUMPAKResults.cgi', referer: http://clumpak2.tau.ac.il/results.html?jobId=1411895550
+[Sun Sep 28 12:19:24 2014] [error] [client 132.66.44.7] mod_mime_magic: can't read `/var/www/cgi-bin/clumpak2/CLUMPAKResults.cgi', referer: http://clumpak2.tau.ac.il/results.html?jobId=1411895550
+[Sun Sep 28 12:19:55 2014] [error] [client 132.66.44.7] mod_mime_magic: can't read `/var/www/cgi-bin/clumpak2/CLUMPAKResults.cgi', referer: http://clumpak2.tau.ac.il/results.html?jobId=1411895550
+[Sun Sep 28 12:20:27 2014] [error] [client 132.66.44.7] mod_mime_magic: can't read `/var/www/cgi-bin/clumpak2/CLUMPAKResults.cgi', referer: http://clumpak2.tau.ac.il/results.html?jobId=1411895550
+[Sun Sep 28 12:20:59 2014] [error] [client 132.66.44.7] mod_mime_magic: can't read `/var/www/cgi-bin/clumpak2/CLUMPAKResults.cgi', referer: http://clumpak2.tau.ac.il/results.html?jobId=1411895550
+[Sun Sep 28 12:21:31 2014] [error] [client 132.66.44.7] mod_mime_magic: can't read `/var/www/cgi-bin/clumpak2/CLUMPAKResults.cgi', referer: http://clumpak2.tau.ac.il/results.html?jobId=1411895550
+[Sun Sep 28 12:22:02 2014] [error] [client 132.66.44.7] mod_mime_magic: can't read `/var/www/cgi-bin/clumpak2/CLUMPAKResults.cgi', referer: http://clumpak2.tau.ac.il/results.html?jobId=1411895550
+[Sun Sep 28 12:22:34 2014] [error] [client 132.66.44.7] mod_mime_magic: can't read `/var/www/cgi-bin/clumpak2/CLUMPAKResults.cgi', referer: http://clumpak2.tau.ac.il/results.html?jobId=1411895550
