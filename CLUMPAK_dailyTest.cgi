@@ -295,7 +295,7 @@ write_file("$curJobdir/".CLUMPAK_CONSTS_and_Functions::QSUB_JOB_NUM_FILE, "valid
 my $validationLog = "$curJobdir/validation.OU";
 
 # send 1st email to user
-`perl sendFirstEmail.pl $email_to_address $jobId`;
+#`perl sendFirstEmail.pl $email_to_address $jobId`;
 
 
 my $pid = fork();
@@ -314,7 +314,9 @@ if( $pid == 0 ){
 
 	# building load perl module cmd
 	my $perlModule =  CLUMPAK_CONSTS_and_Functions::PERL_MODULE_TO_LOAD; 
+	my $pythonModule = CLUMPAK_CONSTS_and_Functions::PYTHON_MODULE_TO_LOAD;
 	my $loadModuleCmd = "module load $perlModule";
+	my $pythonLoadModuleCmd = "module load $pythonModule";
     
     #creating shell script file for lecs2
 	my $qsub_script = "$curJobdir/qsub.sh";
@@ -340,8 +342,11 @@ if( $pid == 0 ){
 	print QSUB_SH "$cmd\n";
 
 	# this will send results ready email to user 
-	my $cmdEmail = "cd /bioseq/$serverName/;perl sendLastEmail.pl --toEmail $email_to_address --id $jobId --subject 'CLUMPAK daily test results';";
-	print QSUB_SH "$cmdEmail\n";
+	#my $cmdEmail = "cd /bioseq/$serverName/;perl sendLastEmail.pl --toEmail $email_to_address --id $jobId --subject 'CLUMPAK daily test results';";
+	#print QSUB_SH "$cmdEmail\n";
+	print QSUB_SH "$pythonLoadModuleCmd\n";
+	my $cmdWriteDailyTest = "cd /bioseq/$serverName/;python write_daily_test.py ".CLUMPAK_CONSTS_and_Functions::DAILY_TESTS_DIR." $jobId;";
+	print QSUB_SH "$cmdWriteDailyTest\n";
 	
 	close (QSUB_SH);
     
